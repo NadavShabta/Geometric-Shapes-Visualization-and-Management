@@ -23,43 +23,40 @@ This project is an implementation of a set of geometric shapes, a shape containe
 - **Unit Testing**: Use of JUnit to create extensive test cases for validating the correctness of the implemented classes.
 
 ## Project Structure
+```plaintext
 GeometricShapesGUI/
 ├── src/
-│ ├── Geo/
-│ │ ├── Point2D.java
-│ │ ├── Circle2D.java
-│ │ ├── Rect2D.java
-│ │ ├── Segment2D.java
-│ │ ├── Triangle2D.java
-│ │ ├── Polygon2D.java
-│ │ └── ...
-│ ├── GUI/
-│ │ ├── GUIShape.java
-│ │ ├── ShapeCollection.java
-│ │ └── ...
-│ ├── Ex4.java
-│ └── ...
+│   ├── Geo/
+│   │   ├── Point2D.java
+│   │   ├── Circle2D.java
+│   │   ├── Rect2D.java
+│   │   ├── Segment2D.java
+│   │   ├── Triangle2D.java
+│   │   ├── Polygon2D.java
+│   │   └── ...
+│   ├── GUI/
+│   │   ├── GUIShape.java
+│   │   ├── ShapeCollection.java
+│   │   └── ...
+│   ├── Ex4.java
+│   └── ...
 ├── test/
-│ ├── Geo/
-│ │ ├── Point2DTest.java
-│ │ ├── Circle2DTest.java
-│ │ ├── Rect2DTest.java
-│ │ ├── Segment2DTest.java
-│ │ ├── Triangle2DTest.java
-│ │ ├── Polygon2DTest.java
-│ │ └── ...
-│ ├── GUI/
-│ │ ├── GUIShapeTest.java
-│ │ ├── ShapeCollectionTest.java
-│ │ └── ...
-│ ├── Ex4Test.java
-│ └── ...
-├── resources/
-│ ├── a0.txt
-│ ├── a1.txt
-│ └── ...
+│   ├── Geo/
+│   │   ├── Point2DTest.java
+│   │   ├── Circle2DTest.java
+│   │   ├── Rect2DTest.java
+│   │   ├── Segment2DTest.java
+│   │   ├── Triangle2DTest.java
+│   │   ├── Polygon2DTest.java
+│   │   └── ...
+│   ├── GUI/
+│   │   ├── GUIShapeTest.java
+│   │   ├── ShapeCollectionTest.java
+│   │   └── ...
+│   ├── Ex4Test.java
+│   └── ...
 ├── lib/
-│ └── ...
+│   └── ...
 ├── Ex4.jar
 └── README.md
 
